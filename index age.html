@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h2{
+            text-align: center;
+            color: blue;}
+        input{
+
+            height: 25px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            border:solid 1px
+        }
+        form{
+            margin: auto;
+            text-align: center;
+            background-color:aqua;
+            width: 400px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px grey;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>AGE CALCULATOR</h1>
+    <form onsubmit="calculate(event)">
+        <div>
+            <input type="text" placeholder="Enter Name" name="nm">
+        </div>
+        <div>
+            <input type="text" placeholder="Enter DOB(DD/MM/YYYY)" name="dob">
+        </div>
+        <div>
+            <button type="submit">CALCULATE AGE</button>
+        </div>
+        <h2 id="agename"></h2>
+    </form>
+
+    <script src="./age.js"></script>
+</body>
+</html>
