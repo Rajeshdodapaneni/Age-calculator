@@ -32,17 +32,17 @@
 </head>
 <body>
     <h1>AGE CALCULATOR</h1>
-    <form onsubmit="calculate(event)">
+    <form onsubmit="CalculateAge(event)">
         <div>
             <input type="text" placeholder="Enter Name" name="nm">
         </div>
         <div>
-            <input type="text" placeholder="Enter DOB(DD/MM/YYYY)" name="dob">
+            <input type="text" placeholder="Enter DOB(YYYY/MM/DD)" id="db" name="dob">
         </div>
         <div>
             <button type="submit">CALCULATE AGE</button>
         </div>
-        <h2 id="agename"></h2>
+        <h2 id="result"></h2>
     </form>
 
     <script src="./age.js"></script>
