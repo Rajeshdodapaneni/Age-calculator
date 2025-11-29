@@ -19,22 +19,10 @@ This application allows users to input their date of birth and instantly calcula
 ✔️ Responsive UI
 
 ✔️ No external libraries – pure JavaScript
-[12:25 PM, 11/29/2025] ~Rajesh Chowdary: 🧠 How It Works
+
+🧠 How It Works
 
 1. User selects their date of birth.
-
-
 2. JavaScript extracts the current date.
-
-
-3. The script calculates the difference in:
-
-Years
-
-Months
-
-Days
-
-
-
+3. The script calculates the difference inYears,Months & Days.
 4. Displays the result instantly on the UI.
